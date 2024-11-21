@@ -77,10 +77,10 @@ plt.show()
 ```
 ```
 imr=cv2.imread('img2.jpg')
-start=(50,50)
-stop=(400,400)
+start=(0,0)
+stop=(500,500)
 color=(150,150,100)
-thick=15
+thick=35
 resr=cv2.rectangle(imr,start,stop,color,thick)
 plt.imshow(resr)
 plt.show()
@@ -180,8 +180,7 @@ cv2.imwrite('Saved.jpg',resve)
 ![image](https://github.com/user-attachments/assets/217686d2-dd33-4af7-8200-c9baa839bff4)
 ![image](https://github.com/user-attachments/assets/8435dcb1-bb7a-4866-9e2e-fffcba12cc44)
 ![image](https://github.com/user-attachments/assets/ec4c7435-c951-4d67-9319-4ff1f969481a)
-![image](https://github.com/user-attachments/assets/3732405c-9b53-4eb8-9c7e-fc74179815fe)
-
+![image](https://github.com/user-attachments/assets/18e74dc1-3e76-43da-b681-ef759182ec45)
 
 
 
